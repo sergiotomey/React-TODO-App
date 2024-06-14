@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:ital,wght@1,500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  background-color: rgb(22, 22, 22);
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.todo-item-input {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.enter-task-input {
+  color: black;
+  background-color: white;
+  font-size: 1.6rem;
+  padding: 5px;
+  border: 2px solid hsla(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.calendar-input {
+  color: black;
+  background-color: white;
+  font-size: 1.6rem;
+  padding: 5px;
+  border: 2px solid hsla(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.add-button {
+  background-color: rgb(22, 218, 25);
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.checkbox-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.checkbox-div input {
+  height: 25px;
+}
+
+.list-item {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+  gap: 5px;
+  font-size: 1.6rem;
+}
+
+.list-item-important {
+  background-color: rgb(232, 36, 36);
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  border: 2px solid rgb(247, 0, 0);
+  border-radius: 5px;
+  padding: 10px;
+  gap: 3px;
+  font-size: 1.6rem;
+}
+
+.delete-button {
+  background-color: rgb(255, 62, 36);
+  padding: 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  margin-left: 50px;
+}
+
+.hand-button {
+  background-color: rgb(30, 120, 254);
+  border: none;
+}
+
+button {
+  color: white;
+  padding: 5px;
+  border-radius: 50px;
+  font-size: 1.5rem;
+}
+
+ul {
+  margin: 0 auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.date-span {
+  color: black;
+  font-size: 1rem;
+  margin: 10px;
+}
+
+.item-name-span {
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.span-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.button-div {
+  display: flex;
+  gap: 5px;
+}
